@@ -14,5 +14,4 @@ Metodi presenti nella classe BagaglioPrezzoCalculator:
 
 ### Description
 Questo programma prende in ingresso dall'utente il peso del bagaglio da trasportare e calcola il costo complessivo in base al suo peso.
-
 Nel caso il bagaglio pesasse più di 20 Kg, si effettuera il sovraprezzo. 
