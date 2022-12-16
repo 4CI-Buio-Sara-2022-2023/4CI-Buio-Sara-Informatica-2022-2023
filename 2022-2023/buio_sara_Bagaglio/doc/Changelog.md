@@ -6,11 +6,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.0.1] - 2022-11-10
 ### Added
+Metodi presenti nella classe _Bagaglio_:
+- setbagaglio()
+- setWeight()
+- getWeight()
+- sovrapprezzo()
+- toString()
+
 Metodi presenti nella classe BagaglioPrezzoCalculator:
 - descriviAttività(): stampa la descrizione del programma.
 - prendiInInput(): prende in input i valori dall'utente.
 - calcolaPrezzo(): calcola il prezzo in base alcofìdice presente nella classe _Bagaglio_.
 - visualizzaRisultati(): visualizza i risultati, in quato caso il prezzo del Bagaglio.
+
+Metodi presenti nella classe _Application_:
+- start()
 
 ### Description
 Questo programma prende in ingresso dall'utente il peso del bagaglio da trasportare e calcola il costo complessivo in base al suo peso.
