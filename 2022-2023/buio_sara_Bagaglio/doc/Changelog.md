@@ -13,10 +13,10 @@ Metodi presenti nella classe _Bagaglio_:
 - sovrapprezzo()
 - toString()
 
-Metodi presenti nella classe BagaglioPrezzoCalculator:
+Metodi presenti nella classe _BagaglioPrezzoCalculator_:
 - descriviAttività(): stampa la descrizione del programma.
 - prendiInInput(): prende in input i valori dall'utente.
-- calcolaPrezzo(): calcola il prezzo in base alcofìdice presente nella classe _Bagaglio_.
+- calcolaPrezzo(): calcola il prezzo in base alcofìdice presente nella classe Bagaglio.
 - visualizzaRisultati(): visualizza i risultati, in quato caso il prezzo del Bagaglio.
 
 Metodi presenti nella classe _Application_:
