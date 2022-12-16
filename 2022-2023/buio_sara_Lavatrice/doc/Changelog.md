@@ -32,7 +32,5 @@ Metodi presenti nella classe _Lavatrice_:
 - toString()
 
 Metodi presenti nella classe _Test_:
-- l1.programmaColorati()
-- l1.programmaBianchi()
-- l1.programmaScuri()
+- static void main (String[]args)
 
