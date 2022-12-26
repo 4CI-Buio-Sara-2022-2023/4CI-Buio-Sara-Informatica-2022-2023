@@ -10,12 +10,12 @@ public class BagaglioPrezzoCalculator {
     public void start(){
         this.descriviAttività();
         this.prendiInput();
-        this.calcolaPrezzo();
+        this.calcolaPrezzo(); // se non salvi il valore restituito, non calcoli nulla
         this.visualizzaRisultati();
     }
-    public double calcolaPrezzo(){
-        if (bag.sovrapprezzo() == true){
-            return (bag.getWeight()*SOVRAPPREZZO);
+    public double calcolaPrezzo(){ // a chi lo restituisci?
+        if (bag.sovrapprezzo()){ 
+            return (bag.getWeight()*COSTO_PER_KG+SOVRAPPREZZO);
         }else{
             return (bag.getWeight()*COSTO_PER_KG);
         }
