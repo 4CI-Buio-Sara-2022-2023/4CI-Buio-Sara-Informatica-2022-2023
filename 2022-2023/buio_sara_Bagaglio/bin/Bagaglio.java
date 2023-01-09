@@ -5,14 +5,15 @@ public class Bagaglio {
         this.weight = 0.0;
     }
     public void setBagaglio(double w){
+        this.weight = 0.0;
         setBagaglio(w);
     }
     public void setWeight(double v){
         if(v > 0){
             this.weight=v;
-        }else{
+        }/*else{
             this.weight=0;
-        }
+        }*/
     }
     public double getWeight(){
         return this.weight;
