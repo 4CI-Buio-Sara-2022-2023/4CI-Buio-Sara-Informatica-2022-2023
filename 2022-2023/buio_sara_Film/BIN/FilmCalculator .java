@@ -3,11 +3,11 @@ import java.io.*;
 
 public class FilmCalculator {
     private ArrayList<FilmModel> filmList;
-    private FilmModel film1;
+    //private FilmModel film1;
 
     public FilmCalculator(){
         filmList=new ArrayList<FilmModel>();
-        film1=new FilmModel();
+        //film1=new FilmModel();
     }
     
     public void start(){
